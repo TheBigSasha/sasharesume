@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/cropped-logo4.png">
-    <HelloWorld msg="Sasha Aleshchenko"/>
+    <HelloWorld msg="Alexander Aleshchenko"/>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 <style>
 #app {
   @import url("https://use.typekit.net/kyz0ydh.css");
-  font-family: 'Bebas Neue Pro Bold', 'Bebas Neue Pro Book', 'Bebas Neue Pro Book', sans-serif;
+  font-family: 'Bebas Neue Pro Bold', 'Bebas Neue Pro Book', 'Bebas Neue Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

@@ -18,7 +18,8 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  @import url("https://use.typekit.net/kyz0ydh.css");
+  font-family: 'Bebas Neue Pro Bold', 'Bebas Neue Pro Book', 'Bebas Neue Pro Book', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

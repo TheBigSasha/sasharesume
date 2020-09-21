@@ -1,24 +1,5 @@
 # sasharesume
 
-## Project setup
-```
-npm install
-```
+## This is my resume website.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Download my resume here!](https://drive.google.com/file/d/1p2lyQC9Ks4M3D5pNWrqRKXONIAaJVBAb/view?usp=sharing)

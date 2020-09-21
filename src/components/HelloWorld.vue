@@ -2,12 +2,11 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>
-      Download a resume!<br>
+      Download a PDF!<br>
     </h2>
-    <h3>PDF</h3>
     <ul>
-      <li><a href="https://drive.google.com/file/d/1p2lyQC9Ks4M3D5pNWrqRKXONIAaJVBAb/view?usp=sharing" target="_blank" rel="noopener">Boring Version</a></li>
-      <li><a href="https://drive.google.com/file/d/1p2lyQC9Ks4M3D5pNWrqRKXONIAaJVBAb/view?usp=sharing" target="_blank" rel="noopener">Pretty Version</a></li>
+      <li><a href="https://drive.google.com/file/d/1g-rDvIiuhZMlYQ8VcBUKafpNguKCLWoA/view?usp=sharing" target="_blank" rel="noopener">Short Version</a></li>
+      <li><a href="https://drive.google.com/file/d/1gqgy4pVJbob3M_b_wlT5WEzpItm3LqUW/view?usp=sharing" target="_blank" rel="noopener">Full Version</a></li>
     </ul>
   </div>
 </template>
@@ -24,29 +23,32 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   h1{
-    font-size: 72pt;
+    font-size: 45pt;
     font-family: "Bebas Neue Pro Bold",sans-serif;
+    font-optical-sizing: auto;
   }
   p{
-    font-size: 1pc;
+    font-size: 24pt;
   }
   h2{
-    font-size: 3pc;
-    font-family: "Bebas Neue Pro Light",sans-serif;
+    font-size: 40pt;
+    margin: auto;
+    font-family: "Bebas Neue Pro Thin",sans-serif;
+    font-optical-sizing: auto;
   }
 h3 {
-  margin: 40px 0 0;
+  margin: 10px 0 0;
   font-size: 3pc;
 }
 ul {
   list-style-type: none;
   padding: 0;
-  font-size: 2pc;
+  font-size: 3pc;
 }
 li {
   display: inline-block;
   margin: 0 10px;
-  font-size: 2pc;
+  font-size: 30pt;
 }
 a {
   color: #42b983;

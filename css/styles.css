@@ -1,36 +1,5 @@
 @import url("https://use.typekit.net/kyz0ydh.css");
 
-@media (min-width: 850px) {
-    main {
-        column-count: 2;
-        column-gap: 20px;
-    }
-
-    section {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        -webkit-column-break-inside: avoid;
-    }
-}
-
-@media (min-width: 1280px) {
-    main {
-        column-count: 3;
-    }
-    section {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        -webkit-column-break-inside: avoid;
-    }
-}
-/*for phones to not have too much padding on the sides*/
-@media (max-width: 600px){
-    main {
-        padding: 10px;
-        margin: 0;
-    }
-
-}
 
 /* styles */
 
@@ -231,3 +200,37 @@ section {
     }
 
 }
+
+@media (min-width: 850px) {
+    main {
+        column-count: 2;
+        column-gap: 20px;
+        padding: 60px;
+    }
+
+    section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+}
+
+@media (min-width: 1280px) {
+    main {
+        column-count: 3;
+        padding: 60px;
+    }
+    section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+}
+
+/*for phones to not have too much padding on the sides*/
+@media (max-width: 600px){
+    main{
+        padding: 20px;
+    }
+}
+

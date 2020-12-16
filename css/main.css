@@ -185,11 +185,12 @@ titles {
   font-family: bebas-neue-pro, sans-serif;
   font-weight: 600;
   font-style: normal;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 30px;
   text-align: center;
   z-index: 20;
   color: white;
-  display: inline;
+  display: block;
   align-items: center;
   justify-content: center;
 }

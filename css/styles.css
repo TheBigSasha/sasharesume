@@ -26,8 +26,8 @@
 /*for phones to not have too much padding on the sides*/
 @media (max-width: 600px){
     main {
-        column-gap: 0;
-        padding: 20px 0;
+        padding: 10px;
+        margin: 0;
     }
 
 }

@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Change padding for phones">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Update scaling for smol devices">
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <updated>1607825641609</updated>
       <workItem from="1607825643387" duration="5595000" />
       <workItem from="1607904521528" duration="2094000" />
-      <workItem from="1607964740003" duration="14806000" />
+      <workItem from="1607964740003" duration="15110000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -147,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608141815756</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update video loop and the phone padding issue">
+      <created>1608142373723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608142373723</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update scaling for smol devices">
+      <created>1608142563428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608142563428</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +190,8 @@
     <MESSAGE value="Remove useless link" />
     <MESSAGE value="Try to add back canvas" />
     <MESSAGE value="Change padding for phones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change padding for phones" />
+    <MESSAGE value="update video loop and the phone padding issue" />
+    <MESSAGE value="Update scaling for smol devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update scaling for smol devices" />
   </component>
 </project>

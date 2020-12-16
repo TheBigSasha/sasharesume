@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Swwitch to HTML5" />
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Remove sidebar">
+      <change beforePath="$PROJECT_DIR$/.idea/sasha_resume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sasha_resume.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607825641609</updated>
       <workItem from="1607825643387" duration="5595000" />
+      <workItem from="1607904521528" duration="2094000" />
+      <workItem from="1607964740003" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -53,40 +79,65 @@
       <option name="project" value="LOCAL" />
       <updated>1607893740329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove sidebar">
+      <created>1607894225740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607894225740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="switch to HTML5" />
     <MESSAGE value="Swwitch to HTML5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swwitch to HTML5" />
+    <MESSAGE value="Remove sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove sidebar" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="404" key="GridCell.Tab.0.bottom" timestamp="1607893753271">
+    <state width="2539" height="404" key="GridCell.Tab.0.bottom" timestamp="1607904509792">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2539" height="404" key="GridCell.Tab.0.bottom/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.center" timestamp="1607893753271">
+    <state width="2539" height="404" key="GridCell.Tab.0.bottom/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
+    <state width="2539" height="404" key="GridCell.Tab.0.center" timestamp="1607904509792">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2539" height="404" key="GridCell.Tab.0.center/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.left" timestamp="1607893753271">
+    <state width="2539" height="404" key="GridCell.Tab.0.center/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
+    <state width="2539" height="404" key="GridCell.Tab.0.left" timestamp="1607904509792">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2539" height="404" key="GridCell.Tab.0.left/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.right" timestamp="1607893753271">
+    <state width="2539" height="404" key="GridCell.Tab.0.left/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
+    <state width="2539" height="404" key="GridCell.Tab.0.right" timestamp="1607904509792">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2539" height="404" key="GridCell.Tab.0.right/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state x="872" y="425" key="Vcs.Push.Dialog.v2" timestamp="1607893741586">
+    <state width="2539" height="404" key="GridCell.Tab.0.right/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
+    <state x="781" y="350" key="SettingsEditor" timestamp="1607904550580">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="425" key="Vcs.Push.Dialog.v2/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893741586" />
+    <state x="781" y="350" key="SettingsEditor/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904550580" />
+    <state x="872" y="425" key="Vcs.Push.Dialog.v2" timestamp="1607894226654">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="425" key="Vcs.Push.Dialog.v2/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607894226654" />
   </component>
 </project>

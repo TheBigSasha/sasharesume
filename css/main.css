@@ -26,11 +26,20 @@ body {
   font-style: normal;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  background: linear-gradient(4deg, #0d1011 0% 20%, #163486) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* #861625 */
+  padding: 0;
+  position: center;
+  border: none;
 }
 
+
 canvas {
-  background: linear-gradient(4deg, #0d1011 0% 20%, #163486);
-  /* #861625 */
   margin: 0;
   padding: 0;
   position: center;
@@ -231,6 +240,7 @@ hr {
  */
 
 audio,
+background,
 canvas,
 iframe,
 img,

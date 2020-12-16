@@ -90,3 +90,8 @@ function animate() {
 };
 
 animate();
+
+window.addEventListener('load', function () {
+  animate();
+}, false);
+

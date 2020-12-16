@@ -23,14 +23,248 @@
 
   <meta name="theme-color" content="#fafafa">
   <script type="text/javascript" src="js/canvas.js" async></script>
-</head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/card.css" />
 
+</head>
+<canvas>
+</canvas>
 <body>
 
 <!-- Add your site or application content here -->
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<canvas></canvas>
+<titles class="titles">
+  <h1>Sasha Aleshchenko</h1>
+  <h2>Computer Engineering, McGill University</h2>
+</titles>
+
+<main class="main">
+  <section class="section">
+    <h2>Photography</h2>
+    <p>I've done photography and video work for numerous clients!</p>
+    <img class="section-img" src="https://sashaphotoca.files.wordpress.com/2019/05/flowers-photoshoot-0091.jpg?w=1200&h=" alt="important graph">
+    <a href="https://sashaphoto.ca/" class="info-link">See my work...</a>
+  </section>
+  <section class="section">
+    <h2>Video</h2>
+    <p>I've worked with organizations including the David Suzuki foundation, Vancouver Film School, Connected City, and more for video production,.</p>
+    <iframe src="https://www.youtube.com/embed/K4fM17SfYAs?autoplay=1&mute=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <a href="#" class="info-link">Learn more...</a>
+  </section>
+  <section class="section">
+    <h2>Teaching CS @ McGill</h2>
+    <p>As a teaching assistant, I run tutorials and FAQ sessions, where I teach topics in object oriented programming, simple algorithms,
+      and more. In doing so, I produce professional videos which engage students and develop custom tools to help explain
+      complex concepts in a simple way and introduce students to topics visually.</p>
+    <a href="#" class="info-link">Learn more...</a>
+  </section>
+  <section class="section bigbottom">
+    <h2>Time Complexity Tester</h2>
+    <p>A java library that graphs runtime efficiency of various methods reflexively.</p>
+    <a class="bigbottom-link info-link" href="https://github.com/TheBigSasha/RuntimeTester" class="info-link">Learn more...</a>
+  </section>
+  <section class="section bigtitle">
+    <h2 class="bigtitle-title">Unified Calculator</h2>
+    <p>A calculator for people who hate calculators.</p>
+    <a href="https://github.com/TheBigSasha/Unified_Calculator_Kit" class="info-link">Learn more...</a>
+  </section>
+
+</main>
+
+<!--
+<section class="card-list">
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Never forget</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="avatar.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Author</div>
+        Jeff Delaney
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+      <a href="#">web-dev</a>
+    </div>
+  </article>
+
+
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/a.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        Zheng Zhilong
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+
+
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/b.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        Francis Drake
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/c.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        Edward Teach
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/d.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        William Kidd
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/d.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        William Kidd
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <header class="card-header">
+      <p>Sep 11th 2020</p>
+      <h2>Card Tricks are fun!</h2>
+    </header>
+
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <img src="https://api.adorable.io/avatars/172/d.png" />
+      </a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+
+      <div class="author-name">
+        <div class="author-name-prefix">Pirate</div>
+        William Kidd
+      </div>
+    </div>
+    <div class="tags">
+      <a href="#">html</a>
+      <a href="#">css</a>
+    </div>
+  </article>
+
+  <canvas></canvas>
+
+
+</section>
+-->
+
 
 <!--<div class="sidebar">
   <a class="active" href="#home">Home</a>
@@ -40,18 +274,6 @@
 </div>-->
 
 <!-- Page content -->
-<div class="content">
-  <div id="titles">
-    <h1>Sasha Aleshchenko</h1>
-    <br>
-    <link>
-      <h3>Hello there!</h3>
-      <p>I am building a fresh new website, stay tuned!</p>
-      <a href="https://drive.google.com/file/d/1p2lyQC9Ks4M3D5pNWrqRKXONIAaJVBAb/view">Download my resume here</a>
-    </div>
-  </div>
-
-</div>
 
 
 

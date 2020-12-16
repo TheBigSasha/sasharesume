@@ -19,11 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Remove sidebar">
-      <change beforePath="$PROJECT_DIR$/.idea/sasha_resume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sasha_resume.iml" afterDir="false" />
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Fix background persistence upon first open, but animations don't always load">
+      <change afterPath="$PROJECT_DIR$/css/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/canvas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <updated>1607825641609</updated>
       <workItem from="1607825643387" duration="5595000" />
       <workItem from="1607904521528" duration="2094000" />
-      <workItem from="1607964740003" duration="3824000" />
+      <workItem from="1607964740003" duration="12692000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -86,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607894225740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix background persistence upon first open, but animations don't always load">
+      <created>1608089031877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608089031877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,36 +118,7 @@
     <MESSAGE value="switch to HTML5" />
     <MESSAGE value="Swwitch to HTML5" />
     <MESSAGE value="Remove sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove sidebar" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="2539" height="404" key="GridCell.Tab.0.bottom" timestamp="1607904509792">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2539" height="404" key="GridCell.Tab.0.bottom/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.bottom/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
-    <state width="2539" height="404" key="GridCell.Tab.0.center" timestamp="1607904509792">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2539" height="404" key="GridCell.Tab.0.center/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.center/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
-    <state width="2539" height="404" key="GridCell.Tab.0.left" timestamp="1607904509792">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2539" height="404" key="GridCell.Tab.0.left/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.left/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
-    <state width="2539" height="404" key="GridCell.Tab.0.right" timestamp="1607904509792">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2539" height="404" key="GridCell.Tab.0.right/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607893753271" />
-    <state width="2539" height="404" key="GridCell.Tab.0.right/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904509792" />
-    <state x="781" y="350" key="SettingsEditor" timestamp="1607904550580">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="781" y="350" key="SettingsEditor/-1080.0.1080.1890/0.0.2560.1410/-4920.0.1920.1050@0.0.2560.1410" timestamp="1607904550580" />
-    <state x="872" y="425" key="Vcs.Push.Dialog.v2" timestamp="1607894226654">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="872" y="425" key="Vcs.Push.Dialog.v2/-1080.0.1080.1890/-4920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607894226654" />
+    <MESSAGE value="Fix background persistence upon first open, but animations don't always load" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix background persistence upon first open, but animations don't always load" />
   </component>
 </project>

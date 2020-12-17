@@ -216,6 +216,10 @@ section {
     opacity: 0.7;
 }
 
+printonly {
+    display: none;
+}
+
 
 @media print {
     .section img {
@@ -236,6 +240,14 @@ section {
 
     .section extra {
         display: inline;
+    }
+
+    printonly {
+        display: inline;
+    }
+
+    .fa {
+        display: none;
     }
 
 }

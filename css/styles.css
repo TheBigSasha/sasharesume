@@ -149,6 +149,14 @@ section {
     break-after: avoid;
 }
 
+/*TODO: Temporary fix for these images*/
+.section div img {
+    width: 49%;
+    float: left;
+    display: block;
+    alignment: center;
+}
+
 .section big-bottom {
 
 }

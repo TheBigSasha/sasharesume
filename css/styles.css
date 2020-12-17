@@ -246,6 +246,7 @@ printonly {
         margin: 0 auto;
     }
 
+    /*TODO: This is ratchet*/
     .section div img {
         display: none;
     }

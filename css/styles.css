@@ -94,6 +94,12 @@ section {
     color: #bcbccf;
 }
 
+.section extra{
+    font-size: 20px;
+    margin: 0 0 1rem;
+    color: #bcbccf;
+}
+
 .section h2 {
     font-size: 35px;
     font-weight: 750;
@@ -180,6 +186,19 @@ section {
     break-inside: avoid;
     break-before: avoid;
     break-after: avoid;
+
+}
+
+.section:hover extra{
+    display: inline;
+}
+
+.section extra {
+    display: none;
+}
+
+.section experience{
+    border-top-color: #3498db;
 }
 
 @media print {
@@ -197,6 +216,10 @@ section {
         padding: 20px;
         border-radius: 40px;
         margin: 0 auto;
+    }
+
+    .section extra {
+        display: inline;
     }
 
 }

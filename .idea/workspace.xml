@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Update scaling for smol devices">
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Blur the background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608142646912</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Blur the background">
+      <created>1608171520584</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608171520584</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +224,7 @@
     <MESSAGE value="Change padding for phones" />
     <MESSAGE value="update video loop and the phone padding issue" />
     <MESSAGE value="Update scaling for smol devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update scaling for smol devices" />
+    <MESSAGE value="Blur the background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blur the background" />
   </component>
 </project>

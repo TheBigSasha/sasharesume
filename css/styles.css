@@ -246,6 +246,10 @@ printonly {
         margin: 0 auto;
     }
 
+    .section div img {
+        display: none;
+    }
+
     .section extra {
         display: inline;
     }

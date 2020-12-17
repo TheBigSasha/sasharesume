@@ -191,7 +191,7 @@ titles {
   font-weight: 600;
   font-style: normal;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   text-align: center;
   z-index: 20;
   color: white;
@@ -214,11 +214,10 @@ titles h2{
 }
 
 titles div {
-  position: relative;
-  vertical-align: bottom;
+  position: inherit;
+  vertical-align: center;
   float: bottom;
   font-weight: 500;
-  padding: 50px;
   /*
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
   */

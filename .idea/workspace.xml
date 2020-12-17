@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Add section for Campus app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +76,7 @@
       <workItem from="1608184334704" duration="30000" />
       <workItem from="1608184383495" duration="104000" />
       <workItem from="1608185109254" duration="1621000" />
+      <workItem from="1608234774178" duration="3276000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>

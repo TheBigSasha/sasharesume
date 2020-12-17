@@ -94,6 +94,15 @@ section {
     color: #bcbccf;
 }
 
+.section p b {
+    font-weight: 900;
+}
+
+.section p i {
+    font-weight: 300;
+    font-style: italic;
+}
+
 .section extra{
     font-size: 20px;
     margin: 0 0 1rem;
@@ -130,6 +139,7 @@ section {
 .section iframe {
     width: 100%;
     display: inline;
+    height: 265px;
     padding: 20px;
     border-radius: 40px;
     margin: 0 auto;

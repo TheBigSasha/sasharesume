@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="add IMDB">
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Add print only academics page">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608183084829</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fix icon printing and add printonly tag for additional info">
+      <created>1608183320192</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608183320192</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add print only academics page">
+      <created>1608183492761</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608183492761</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +270,8 @@
     <MESSAGE value="Change out icons" />
     <MESSAGE value="Add social links" />
     <MESSAGE value="add IMDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IMDB" />
+    <MESSAGE value="Fix icon printing and add printonly tag for additional info" />
+    <MESSAGE value="Add print only academics page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add print only academics page" />
   </component>
 </project>

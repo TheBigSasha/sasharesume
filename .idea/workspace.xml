@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Add motor keyframer and cleanup some entries">
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Change means of google analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,13 @@
       <workItem from="1608185109254" duration="1621000" />
       <workItem from="1608234774178" duration="3276000" />
       <workItem from="1608239753650" duration="2799000" />
-      <workItem from="1608251515502" duration="3633000" />
+      <workItem from="1608251515502" duration="8967000" />
+      <workItem from="1608962677770" duration="615000" />
+      <workItem from="1609128668758" duration="678000" />
+      <workItem from="1609293777403" duration="599000" />
+      <workItem from="1609367128302" duration="641000" />
+      <workItem from="1609539295914" duration="14000" />
+      <workItem from="1610324312025" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -267,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608239945065</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add google analytics changes">
+      <created>1608401259647</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608401259647</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Change means of google analytics">
+      <created>1608401330888</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608401330888</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +308,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch to HTML5" />
     <MESSAGE value="Swwitch to HTML5" />
     <MESSAGE value="Remove sidebar" />
     <MESSAGE value="Fix background persistence upon first open, but animations don't always load" />
@@ -310,6 +331,8 @@
     <MESSAGE value="Add technology tags to resume entries" />
     <MESSAGE value="Add section for Campus app" />
     <MESSAGE value="Add motor keyframer and cleanup some entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add motor keyframer and cleanup some entries" />
+    <MESSAGE value="Add google analytics changes" />
+    <MESSAGE value="Change means of google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change means of google analytics" />
   </component>
 </project>

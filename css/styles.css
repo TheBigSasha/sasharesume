@@ -136,7 +136,7 @@ section {
     margin: 0 auto;
 }
 
-.section iframe {
+.section .video {
     width: 100%;
     display: inline;
     height: 265px;
@@ -144,6 +144,8 @@ section {
     border-radius: 40px;
     margin: 0 auto;
 }
+
+
 
 .section img:hover {
     transform: translateZ(400px);

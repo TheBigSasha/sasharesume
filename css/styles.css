@@ -4,6 +4,9 @@
 /* styles */
 
 :root {
+    --bg: #17141d;
+    --fontsubtle: #bcbccf;
+    --maintext: white;
     --blue: #34495e;
     --green: #e74c3c;
     --yellow: #C9C243;
@@ -14,7 +17,7 @@
 body {
     background-color: var(--blue);
     font-family: bebas-neue-pro, sans-serif;
-    color: #34495e;
+    color: var(--blue);
 }
 
 main {
@@ -80,7 +83,7 @@ p {
 
 section {
     border-radius: 16px;
-    background: #17141d;
+    background: var(--bg);
     /*box-shadow: -1rem 0 3rem #000;*/
 
     transition: .2s;
@@ -106,7 +109,7 @@ section {
 .section extra{
     font-size: 20px;
     margin: 0 0 1rem;
-    color: #bcbccf;
+    color: var(--fontsubtle);
 }
 
 .section h2 {
@@ -178,7 +181,7 @@ section {
 }
 
 .section.bigtitle-title {
-    color: white;
+    color: var(--maintext);
     background-color: var(--red);
     margin-bottom: 10px;
 }
@@ -318,3 +321,9 @@ printonly {
     }
 }
 
+@media(prefers-color-scheme: dark){
+    {
+        --bg: #ffffff;
+        --maintext: black;
+    }
+}

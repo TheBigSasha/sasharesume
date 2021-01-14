@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Change means of google analytics">
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Add bestofcomp embed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,10 @@
       <workItem from="1609293777403" duration="599000" />
       <workItem from="1609367128302" duration="641000" />
       <workItem from="1609539295914" duration="14000" />
-      <workItem from="1610324312025" duration="622000" />
+      <workItem from="1610324312025" duration="2085000" />
+      <workItem from="1610499408382" duration="2411000" />
+      <workItem from="1610556511933" duration="5000" />
+      <workItem from="1610600115872" duration="9715000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -289,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608401330888</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add bestofcomp embed">
+      <created>1610325235311</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610325235311</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +318,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Swwitch to HTML5" />
     <MESSAGE value="Remove sidebar" />
     <MESSAGE value="Fix background persistence upon first open, but animations don't always load" />
     <MESSAGE value="Complete overhaul with cards" />
@@ -333,6 +342,7 @@
     <MESSAGE value="Add motor keyframer and cleanup some entries" />
     <MESSAGE value="Add google analytics changes" />
     <MESSAGE value="Change means of google analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change means of google analytics" />
+    <MESSAGE value="Add bestofcomp embed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bestofcomp embed" />
   </component>
 </project>

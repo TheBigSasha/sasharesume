@@ -19,16 +19,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Update info">
+    <list default="true" id="111bf879-f7de-4a40-9432-a5e157b84876" name="Default Changelist" comment="Fix video links for norel">
+      <change afterPath="$PROJECT_DIR$/css/brutalism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/canvas.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1laC6nYjbn37Ewgu6TqXMvUCIwD" />
@@ -40,8 +58,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -89,7 +110,9 @@
       <workItem from="1610600115872" duration="10076000" />
       <workItem from="1610649745582" duration="363000" />
       <workItem from="1610650128970" duration="44000" />
-      <workItem from="1610659491817" duration="634000" />
+      <workItem from="1610659491817" duration="6481000" />
+      <workItem from="1610735278710" duration="2854000" />
+      <workItem from="1611119443667" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="switch to HTML5">
       <created>1607893592702</created>
@@ -315,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610650164948</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fix video links for norel">
+      <created>1610677523632</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610677523632</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +364,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete overhaul with cards" />
     <MESSAGE value="Edit html" />
     <MESSAGE value="Hide canvas (temp fix)" />
     <MESSAGE value="Change formatting" />
@@ -359,6 +388,7 @@
     <MESSAGE value="Add bestofcomp embed" />
     <MESSAGE value="Update site" />
     <MESSAGE value="Update info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update info" />
+    <MESSAGE value="Fix video links for norel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix video links for norel" />
   </component>
 </project>

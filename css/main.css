@@ -1,4 +1,6 @@
 @import url("https://use.typekit.net/kyz0ydh.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -21,7 +23,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: bebas-neue-pro, sans-serif;
+  font-family: Manrope, sans-serif;
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(4deg, #0d1011 0% 20%, #163486) no-repeat center center fixed;

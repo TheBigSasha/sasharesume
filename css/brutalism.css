@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+html{
+    font-family: 'Manrope', sans-serif;
+    z-index: 1;
+    margin-left: 75pt;
+    margin-right: 75pt;
+}
+
+.name{
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 900;
+}
+
+.category-name{
+    font-size: 55pt;
+    text-align: center;
+    line-height: 0;
+    z-index: -1000;
+    margin-bottom: 25px;
+}
+
+.education{
+    padding: 0 18px 10px;
+    box-shadow: black 2px 2px 2px;
+    width: fit-content;
+    height: min-content;
+    border-top: 10px solid teal;
+    border-radius: 18px;
+    z-index: 100;
+}
+
+.education h1, .education h2, .education h3 {
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+.education h3{
+    font-weight: 900;
+}
+
+.job-exp{
+    padding: 0 18px 18px;
+    box-shadow: black -2px 0px 18px;
+    width: fit-content;
+    height: min-content;
+    border-top: 10px solid teal;
+    border-radius: 18px;
+    margin-bottom: 20px;
+
+}

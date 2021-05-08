@@ -204,7 +204,6 @@ section {
 }
 
 .section:hover {
-    transform: scale(1.1) translateZ(400px);
     box-shadow: -1rem 0 3rem #000;
     break-inside: avoid;
     break-before: avoid;

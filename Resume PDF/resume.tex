@@ -1,0 +1,148 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{hyperref}
+    \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.5in,right=0.5in,bottom=0.8in,top=0.5in]{geometry}
+    \usepackage{fontspec}
+     \setmainfont{Manrope-Light.ttf}[
+       BoldFont       = Manrope-Bold.ttf ,
+       ItalicFont     = Manrope-ExtraLight.ttf ,
+       BoldItalicFont = Manrope-ExtraBold.ttf ]
+
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textbf{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textsc{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Alexander Aleshchenko}}\\
+	\href{https://sasharesume.com/location}{Vancouver, BC} $\cdot$ \href{mailto:alexander.aleshchenko@mcgill.ca?subject=%5BContact%20from%20Resume%200xf44%5D&body=Hello%2C%20Alexander!%0D%0A%0D%0A...}{alexander.aleshchenko@mcgill.ca} $\cdot$ \href{tel:1-604-401-6356}{604-401-6356} $\cdot$ \href{https://sasharesume.com}{sasharesume.com}\\
+	\textit{Seeking new grad software engineering roles from May-Dec 2023}
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{McGill University}\hfill \textit{Montreal, QC}\\
+B.A Software Engineering \textit{GPA: 3.63} \hfill Sept 2019 - May 2023\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Meta} \hfill \textit{Menlo Park, California, United States}\\
+\textit{Software Engineer Intern} \hfill June 2022 - August 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Proposed, pitched, designed, and built} a development, debugging, and dogfooding platform, which serves now as \textbf{the primary developer platform} for \href{https://business.whatsapp.com}{WhatsApp Business Onboarding}. Tools used were \textbf{Hack, Flow, and React.JS}.
+	\item Had direct and significant impact on speeding up development for one of \textbf{Meta$'$s top priority projects} directly mentioned by the CEO in the H1 2022 earnings call.
+\end{itemize}
+\textbf{Amazon} \hfill \textit{Vancouver, BC, Canada}\\
+\textit{Software Engineer Intern} \hfill Jan 2022 - May 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Built major parts of a customer facing dashboard for management and debugging in the \href{https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.html/}{AWS Simple Workflow} product using \textbf{Java, TypeScript, and React.JS}.
+	\item This project included creating a complex design including \textbf{data aggregation from multiple sources}, \textbf{asynchronous and chunked loading of data}, and more.
+\end{itemize}
+\end{itemize}
+\textbf{Rocscience, Inc.} \hfill \textit{Toronto, Ontario, Canada}\\
+\textit{Software Engineer Intern} \hfill May 2021 - August 2021\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Designed and planned a new product}  for use in the entire \href{https://www.rocscience.com}{Rocscience suite of apps}.
+	\item Worked with customers to find and gain feedback, leading to \textbf{a successful pitch to the CEO} for the project.
+	\item The app \textbf{turns simulation outputs such as point clouds, contour maps, 3d geometries, and data tables} directly into ready-to-go \textbf{engineering reports} suitable for use by architects, regulators, and civil engineers.
+	\item Built the beta version of the app using \textbf{C++, Typescript, and React.JS}.
+\end{itemize}
+\textbf{McGill University} \hfill \textit{Montreal, Quebec, Canada}\\
+\textit{Teaching Assistant - Computer Science} \hfill Sept 2020 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item As McGill$'$s youngest teaching assistant, won the \href{https://www.cs.mcgill.ca/academic/ta/awards/}{SOCS TA Award} for leading full-class interactive sessions for \textbf{thousands of students} in \textbf{algorithms and data structures}.
+	\item Produced top quality  \href{https://www.youtube.com/watch?v=c0DQO5L7LS0}{animated and pre-recorded video content}
+	\item Developed apps for teaching including an \href{https://github.com/TheBigSasha/RuntimeTester}{algorithm time complexity visualization library}, a \href{https://github.com/TheBigSasha/best-of-comp-server}{competitive assignment framework integrated with CodePost}, and more.
+	\item Built out \textbf{innovative new gameified and competition based assignments} as well as pioneering new teaching formats such as podcast style multi presenter sessions.
+\end{itemize}
+
+\header{Projects}
+\vspace{2mm}
+{\href{http://bcsculpture.com/}{\textbf{BCSculpture.com}}} {\sl React.JS, Typescript, Babylon.JS, Framer Motion, Gatsby, Contentful, GitHub CI/CD}\\
+A cutting edge \textbf{virtual art gallery} with state of the art \textbf{3d and 2d animations} made extremely efficient for \textbf{lightning fast page loads}, SEO, and performance on low end and mobile devices.\\
+\vspace*{4mm}
+{\href{https://github.com/TheBigSasha/best-of-comp-server}{\textbf{Assignment Competition Framework}}} {\sl Java, Spring Boot, Vue.JS} \hfill \\
+A scalable, production ready framework used to \textbf{host competitive assignments} in McGill University$'$s \textbf{largest Computer Science class}. Built from the ground up with a \textbf{benchmarking server}, leaderboard UI, \textbf{account linking and authentication} system, and cheating preventions.\\
+\vspace*{4mm}
+{\href{https://github.com/TheBigSasha/}{\textbf{HelpSched}}} {\sl Kotlin, Spring Boot, TypeScript, React.js, Framer Motion, Python, PyTorch}\\
+This app \textbf{analyzes students' performance and skills}, to help teaching staff to know what topics their class has trouble with and to \textbf{match students to content} they may be missing.\\
+\vspace*{2mm}
+
+
+
+
+\ 
+\end{document}
